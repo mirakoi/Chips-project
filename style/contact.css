@@ -51,6 +51,7 @@ h1:hover {
 i {
     color: aqua;
 }
+
 .form {
     display: flex;
     flex-direction:column ;
