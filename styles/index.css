@@ -1,3 +1,133 @@
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+/* Settings of header*/
+
+header {
+   height: 12vh;
+   border-bottom: 1px solid #2196f3;
+   background-color:  #00867777;
+   margin: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav {
+   min-width: 690px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.nav__list {
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: row;
+   margin-left: 10px;
+}
+
+.nav__link {
+   color: rgb(245, 243, 240);
+   text-decoration: none;
+   font-size: 19px;
+}
+
+.nav__link:hover {
+   color: rgb(0, 195, 255);
+}
+
+
+.btn_top_design1 {
+   max-width: 234px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.nav>li {
+   margin-left: 38px;
+   position: relative;
+   right: 39px;
+}
+
+/* Settings of Header Buttons*/
+
+.btn_top_design1 {
+   max-width: 234px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.btn_top_design2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4px;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+}
+
+.btn_signin {   
+   position: relative;
+   right: 10px;
+   padding: 14px;
+   max-width: 110px;
+   max-height: 46px;
+   width: 100%;
+   background-color: #ffffff;
+   border-radius: 4px;
+   border: 1;
+   border-color: #BCD0E5;
+   color: #173A56;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.btn_signup {
+   position: relative; 
+   padding: 14px;
+   max-width: 102px;
+   max-height: 46px;
+   width: 100%;
+   font-weight: bolder;
+   background-color: #f3db08;
+   border: none;
+   color: #FFFFFF;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+/* Settings of Logo*/
+
+.top {
+   position: sticky; 
+   top: 22px;
+   left: 143.92px;
+}
+
+.end-logo {
+   position: relative;
+   top: 80px;
+}
+
+.logo {
+   margin-left: 30px;
+   font-size: 40px;
+   font-family: 'Poppins', sans-serif;
+   color:  #008676;
+}
+
+/* Settings of footer*/
+
 footer {
     height: 25%;
     width: 100%;
@@ -8,10 +138,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
  }
- .end-logo {
-    position: relative;
-    top: 80px;
- }
+
  .space {
     border-left: 1px;
     border-color: darkgrey;
