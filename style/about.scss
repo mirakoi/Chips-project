@@ -1,4 +1,6 @@
+@import 'header';
 @import 'footer';
+@import 'fonts';
 
 body {
     margin: 0;
@@ -14,11 +16,21 @@ main {
 	align-items: center;
     justify-content: space-evenly;
 }
-.container {
+.about-container {
     width: 70%;
     height: 90%;
     background-color: #03b9a477;
     box-shadow: 10px 10px 8px #696868;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.text-container {
+    width: 45%;
+    height: 100%;
+    padding: 10px;
 }
 
 
