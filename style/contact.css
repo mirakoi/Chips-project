@@ -24,17 +24,16 @@ body {
 
 .right-side {
     width:40%;
-    height:70vh;
+    height:80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    background-color:#63635f;
-    color: white;
+    background-color: #f8f0f194;
+    color: black;
     border-radius: 10px;
     padding: 30px;
     margin-top: 100px;
-    
 }
 .left-side {
     display: flex;
@@ -55,7 +54,7 @@ h1 {
     text-decoration: none;
 }
 .contactus-title:hover {
-    color: #b89b0b;
+    color: #ea526f;
     cursor: pointer;
 }
 .left-side h2 {
@@ -63,18 +62,57 @@ h1 {
     text-transform: capitalize;
     font-size: 25px;
 }
-.left-side h2:hover {
-    color:#63635f;
-}
 
 .left-side p {
     
 }
 i {
-    color: aqua;
+    color: #06312C;
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 65px;
+    padding-top: 68px;
+    padding-bottom: 64px;
+}
+.form__text {
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    color: red; 
+    text-transform: capitalize;
+}
+form {
+    width: 663px;
+}
+form>div {
+    display: contents;
+    height: 72px;
+    width: 70%;
+}
+input, select , textarea {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #9DBEBB;
+    width: 70%;
+}
+textarea {
+    height: 72px;
+}
+.submit {
+    border-radius: 40px;
+    border-bottom: none;
+    width: 202px;
+    height: 48px;
+    margin-left: 100px;
 }
 
-.form {
+
+/*.form {
     display: flex;
     flex-direction:column ;
     justify-content: space-between;

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/contact.css">
     <title>contact us</title>
 </head>
@@ -41,18 +42,30 @@
                 <p>Adress Stockholm,111 Sweden</p>
             </div>
             <div>
-                <form action="">
+                <form class="form">
                     <div>
-                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        <label for="name"></label>
+                        <input type="text" class="form__text" required placeholder="your name" > 
                     </div>
                     <div>
-                        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                        <label for="email"></label>
+                        <input type="text" class="form__text" required placeholder="your email">
                     </div>
                     <div>
-                        <textarea></textarea>
+                        <label for="msg_category"></label>
+                        <select id="msg_category" class="form__text" name="msg_category">
+                            <option value="none" selected > </option>
+                            <option value="Products"  >Products</option>
+                            <option value="Support">Support</option>
+                            <option value="Return">Return</option>
+                        </select>                              
                     </div>
                     <div>
-                        <input type="submit" value="send now">
+                        <label for="message"></label>
+                        <textarea name="message" class="form__text form_textarea" placeholder="your message" ></textarea>
+                    </div>
+                    <div>
+                        <input class="submit" type="submit" value="send now">
                     </div>
                 </form>
             </div>
