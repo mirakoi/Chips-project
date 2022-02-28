@@ -67,7 +67,7 @@ h1 {
     
 }
 i {
-    color: #06312C;
+    color: #ea526f;
 }
 .form {
     display: flex;
@@ -78,11 +78,10 @@ i {
     padding-bottom: 64px;
 }
 .form__text {
-    font-family:'Roboto', sans-serif;
     font-size: 18px;
     line-height: 21px;
     line-height: 100%;
-    color: red; 
+    color: #ea526f; 
     text-transform: capitalize;
 }
 form {
