@@ -44,7 +44,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(238, 185, 185, 0.2);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   color: black;
@@ -112,9 +112,15 @@ i {
 }
 
 .right-side__title {
-  color: #ea526f;
+  color: #06312C;
   text-transform: capitalize;
   font-size: 30px;
+  margin: auto;
+}
+
+.contact-info {
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 .form__text {
@@ -139,7 +145,7 @@ input, select, textarea {
   background: none;
   border: none;
   outline: none;
-  border-bottom: 1px solid #9DBEBB;
+  border-bottom: 1px solid #06312C;
   width: 70%;
 }
 
@@ -151,10 +157,10 @@ textarea {
   border-radius: 40px;
   background-color: #ea526f;
   color: #ffff;
+  border: none;
   text-transform: capitalize;
   width: 200px;
   height: 48px;
   margin-left: 100px;
   margin-top: 40px;
 }
-/*# sourceMappingURL=contact.css.map */

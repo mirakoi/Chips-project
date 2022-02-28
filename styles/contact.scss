@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(238, 185, 185, 0.2);
     box-shadow: 0 5px 15px rgb(0,0,0,.5);
     color: black;
     border-radius: 10px;
@@ -76,9 +76,14 @@ i {
     padding-bottom: 64px;
 }
 .right-side__title {
-    color: #ea526f;
+    color: #06312C;
     text-transform: capitalize;
-    font-size: 30px;  
+    font-size: 30px; 
+    margin: auto; 
+}
+.contact-info {
+    margin-left: 60px;
+    margin-top: 20px; 
 }
 .form__text {
     font-size: 16px;
@@ -99,7 +104,7 @@ input, select , textarea {
     background: none;
     border: none;
     outline: none;
-    border-bottom: 1px solid #9DBEBB;
+    border-bottom: 1px solid #06312C;
     width: 70%;
 }
 textarea {
@@ -109,6 +114,7 @@ textarea {
     border-radius: 40px;
     background-color: #ea526f;
     color: #ffff;
+    border: none;
     text-transform: capitalize;
     width: 200px;
     height: 48px;

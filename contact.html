@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/common.css">
-    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./styles/contact.css">
     <title>contact us</title>
 </head>
 
@@ -21,7 +23,7 @@
     </div>
     <div class="container">
         <div class="left-side">
-            <h1><a class="contactus-title" href="contact.html" target="_blank">contact us</a></h1>
+            <h1 class="animate__animated animate__backInDown animate__delay-1s"><a class="contactus-title " href="contact.html" target="_blank">contact us</a></h1>
             <h2>here you can contact us and leave your opinion about our product !</h2>
             <p>If you have any questions,feedback or for any other reason wish to get in touch with us, please fill out
                 the
@@ -30,23 +32,25 @@
         </div>
         <div class="right-side">
             <p class="right-side__title">get in touch</p>
-            <div class="container-icon">
-                <i class="container-icon fa-solid fa-envelope"></i>
-                <p>Organicchips@potatis111.com</p>
-            </div>
-            <div class="container-icon">
-                <i class="fa-solid fa-phone"></i>
-                <p>+077-0000000/+077-8888777</p>
-            </div>
-            <div class="container-icon">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Adress Stockholm central,111 Sweden</p>
+            <div class="contact-info">
+                <div class="container-icon">
+                    <i class="container-icon fa-solid fa-envelope"></i>
+                    <p>Organicchips@potatis111.com</p>
+                </div>
+                <div class="container-icon">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+077-0000000/+077-8888777</p>
+                </div>
+                <div class="container-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Adress Stockholm central,111 Sweden</p>
+                </div>
             </div>
             <div>
                 <form class="form">
                     <div>
                         <label for="name"></label>
-                        <input type="text" class="form__text" required placeholder="your name" > 
+                        <input type="text" class="form__text" required placeholder="your name">
                     </div>
                     <div>
                         <label for="email"></label>
@@ -54,16 +58,17 @@
                     </div>
                     <div>
                         <label for="msg_category"></label>
-                        <select id="msg_category" class="form__text" name="msg_category">
-                            <option value="none" selected > </option>
-                            <option value="Products"  >Products</option>
-                            <option value="Support">Support</option>
-                            <option value="Return">Return</option>
-                        </select>                              
+                        <select id="msg_category" class="form__text" name="msg_category" placeholder="product type">
+                            <option value="none" selected> </option>
+                            <option value="Products">Potato chips</option>
+                            <option value="Return">Barbecue potato chips</option>
+                            <option value="Support">Popcorn</option>
+                            <option value="Return">Potato Chips cheddar</option>
+                        </select>
                     </div>
                     <div>
                         <label for="message"></label>
-                        <textarea name="message" class="form__text form_textarea" placeholder="your message" ></textarea>
+                        <textarea name="message" class="form__text form_textarea"></textarea>
                     </div>
                     <div>
                         <input class="submit" type="submit" value="send now">
