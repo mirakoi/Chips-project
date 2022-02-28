@@ -62,7 +62,6 @@ h1 {
     text-transform: capitalize;
     font-size: 25px;
 }
-
 .left-side p {
     
 }
@@ -108,11 +107,4 @@ textarea {
     width: 202px;
     height: 48px;
     margin-left: 100px;
-}
-
-
-/*.form {
-    display: flex;
-    flex-direction:column ;
-    justify-content: space-between;
 }
