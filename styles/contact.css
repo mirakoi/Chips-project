@@ -11,6 +11,7 @@
 body {
   width: 100%;
   min-height: 100vh;
+  height: 100%;
   margin: auto;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#03d5bd), color-stop(#00867777), to(#00867777));
   background-image: linear-gradient(#03d5bd, #00867777, #00867777);
@@ -32,7 +33,7 @@ body {
 
 .right-side {
   width: 40%;
-  height: 80vh;
+  height: 70vh;
   background-color: rgba(238, 185, 185, 0.2);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -86,15 +87,32 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 65px;
-  padding-top: 68px;
-  padding-bottom: 64px;
+  padding: 30px;
+}
+.form input, .form textarea, .form select {
+  width: 90%;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #06312C;
+  background: none;
+}
+.form input[type=submit] {
+  width: 90%;
+  max-width: 160px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ea526f), color-stop(#6bafa7), to(#a04858));
+  background-image: linear-gradient(#ea526f, #6bafa7, #a04858);
+  color: #111111;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  height: 48px;
 }
 
 .right-side__title {
@@ -108,45 +126,4 @@ i {
 .contact-info {
   margin-left: 60px;
   margin-top: 20px;
-}
-
-.form__text {
-  font-size: 16px;
-  line-height: 21px;
-  line-height: 100%;
-  color: #ea526f;
-  text-transform: capitalize;
-}
-
-form {
-  width: 700px;
-}
-
-form > div {
-  display: contents;
-}
-
-input, select, textarea {
-  background: none;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #06312C;
-  width: 70%;
-}
-
-.submit {
-  border-radius: 40px;
-  background-color: #ea526f;
-  color: #ffff;
-  border: none;
-  cursor: pointer;
-  text-transform: capitalize;
-  width: 200px;
-  height: 48px;
-  margin-left: 100px;
-  margin-top: 40px;
-}
-
-.submit:hover {
-  background-color: #773340;
 }
