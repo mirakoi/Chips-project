@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/index.css" />
+    ​​<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <title>chips-mira</title>
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar">
-      <div class="container">
-        <img id="chips-logo" src="/images/logo.svg" alt="chips-logo" />
-        <ul class="nav">
-          <li><a href="/index.html">HOME</a></li>
-          <li><a href="/about.html">ABOUT</a></li>
-          <li><a href="/about.html">GALLERY</a></li>
-          <li><a href="/contact.html">CONTACT</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="navbar">
+          <div class="container">
+            <img id="chips-logo" src="/images/logo.svg" alt="chips-logo" />
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+  </header>
 
     <!-- HERO SECTION -->
 
@@ -35,27 +41,24 @@
 
     <!-- FONT AWSOME SECTION-->
 
-    <section class="fontawsome">
-      <div class="fontawsome-container">
+    <section class="info">
+      <div class="info-container">
         <div class="column">
-          <i class="fa-solid fa-potato"></i>
-          <h3 class="fontawsome-title">100% ORGANIC</h3>
+          <h3 class="info-title">100% ORGANIC</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             libero aspernatur adipisci nulla error.
           </p>
         </div>
         <div class="column">
-          <i class="fa-solid fa-potato"></i>
-          <h3 class="fontawsome-title">VEGAN</h3>
+          <h3 class="info-title">VEGAN</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             libero aspernatur adipisci nulla error.
           </p>
         </div>
         <div class="column">
-          <i class="fa-solid fa-potato"></i>
-          <h3 class="fontawsome-title">GLUTEN-FREE</h3>
+          <h3 class="info-title">GLUTEN-FREE</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             libero aspernatur adipisci nulla error.
@@ -86,5 +89,29 @@
         />
       </div>
     </section>
+
+    <footer>
+      <div class="logo-block">
+          <img class="end-logo" src="images/logo.svg" alt="Logo">
+      </div>
+      <div class="space"></div>
+      <div class="link-block">
+          <ul class="end-links">
+              <li><a class="nav-appearance" href="about.html">About Us</a></li>
+              <li><a class="nav-appearance" href="contact.html">Contact</a></li>
+              <li><a class="nav-appearance" href="gallery.html">Gallery</a></li>
+              <li><a class="nav-appearance" href="index.html">Main Page</a></li>
+          </ul>
+      </div>
+      <form class="form" action="" >
+          <label for="e-mail" class="label">Join our mailing list!</label>
+          <input class="input-area" type="e-mail"
+          placeholder="&nbsp; Your Email" required autofocus maxlength="40"
+          minlength="5">
+          <div class="email-block"></div>
+          <button class="signup-now-btn">Sign Up Now</button>
+      </form>
+  </footer>
+
   </body>
 </html>
