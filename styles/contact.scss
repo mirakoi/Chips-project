@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    color: #000000;
 }
 body {
     width: 100%;
@@ -25,21 +26,15 @@ body {
 .right-side {
     width:40%;
     height:80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
     background-color: rgba(238, 185, 185, 0.2);
     box-shadow: 0 5px 15px rgb(0,0,0,.5);
-    color: black;
     border-radius: 10px;
-    padding: 30px;
     margin-top: 100px;
 }
 .left-side {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 500px;
     height: 400px;
     margin-top: 160px;
@@ -78,8 +73,9 @@ i {
 .right-side__title {
     color: #06312C;
     text-transform: capitalize;
-    font-size: 30px; 
-    margin: auto; 
+    font-size: 30px;
+    margin-top: 20px; 
+    text-align: center; 
 }
 .contact-info {
     margin-left: 60px;
@@ -93,12 +89,10 @@ i {
     text-transform: capitalize;
 }
 form {
-    width: 663px;
+    width: 700px;
 }
 form>div {
     display: contents;
-    height: 72px;
-    width: 70%;
 }
 input, select , textarea {
     background: none;
@@ -107,18 +101,19 @@ input, select , textarea {
     border-bottom: 1px solid #06312C;
     width: 70%;
 }
-textarea {
-    height: 72px;
-}
 .submit {
     border-radius: 40px;
     background-color: #ea526f;
     color: #ffff;
     border: none;
+    cursor: pointer;
     text-transform: capitalize;
     width: 200px;
     height: 48px;
     margin-left: 100px;
     margin-top: 40px;
+}
+.submit:hover {
+    background-color: #773340;
 }
 
