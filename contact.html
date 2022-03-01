@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,55 +11,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./styles/contact.css">
     <title>contact us</title>
 </head>
 
 <body>
     <div class="logo">
-        <img src="images/logo.svg" alt="">
+        <img src="images/logo.svg" alt="Organic chips">
     </div>
     <div class="container">
         <div class="left-side">
-            <h1><a class="contactus-title" href="contact.html" target="_blank">contact us</a></h1>
+            <h1 class="animate__animated animate__backInDown animate__delay-1s"><a href="contact.html"
+                    target="_blank">contact us</a></h1>
             <h2>here you can contact us and leave your opinion about our product !</h2>
             <p>If you have any questions,feedback or for any other reason wish to get in touch with us, please fill out
                 the
-                form here or contact us via our Facebook page .
+                form here or contact us via our Facebook page.
                 You can also call our consumer contact (Mon-Fri, 9-11):077-0000000.</p>
         </div>
         <div class="right-side">
-            <div class="container-icon">
-                <i class="container-icon fa-solid fa-envelope"></i>
+            <p class="title">get in touch</p>
+            <div class="contact-info">
+                <i class="fa-solid fa-envelope"></i>
                 <p>Organicchips@potatis111.com</p>
-            </div>
-            <div class="container-icon">
+
                 <i class="fa-solid fa-phone"></i>
-                <p>+077-0000000</p>
-            </div>
-            <div class="container-icon">
+                <p>+077-0000000/+077-8888777</p>
+
                 <i class="fa-solid fa-location-dot"></i>
-                <p>Adress Stockholm,111 Sweden</p>
+                <p>Adress,Stockholm central,Sweden</p>
+
             </div>
-            <div>
-                <form action="">
-                    <div>
-                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                    </div>
-                    <div>
-                        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
-                    </div>
-                    <div>
-                        <textarea></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="send now">
-                    </div>
-                </form>
-            </div>
+            <form class="form">
+                <div>
+                    <label for="name">your name</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="email">our email</label>
+                    <input type="text" class="form__text" required>
+                </div>
+                <div>
+                    <label for="msg_category">product type</label>
+                    <select id="msg_category" class="form__text" name="msg_category">
+                        <option value="none" selected> </option>
+                        <option value="Products">Potato chips</option>
+                        <option value="Return">Barbecue potato chips</option>
+                        <option value="Support">Popcorn</option>
+                        <option value="Return">Potato Chips cheddar</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="send now">
+                </div>
+            </form>
         </div>
     </div>
-
 </body>
 
 </html>
