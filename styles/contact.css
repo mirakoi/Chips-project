@@ -31,16 +31,6 @@ body {
       justify-content: space-around;
 }
 
-.right-side {
-  width: 40%;
-  height: 70vh;
-  background-color: rgba(238, 185, 185, 0.2);
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  margin-top: 100px;
-}
-
 .left-side {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,32 +41,50 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 500px;
+  width: 600px;
   height: 400px;
   margin-top: 160px;
 }
-
-h1 {
+.left-side h1 {
   text-align: center;
 }
-
-.contactus-title {
-  color: #ea526f;
+.left-side h1 a {
+  color: #06312C;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 44px;
   text-decoration: none;
 }
-
-.contactus-title:hover {
-  color: #06312C;
+.left-side h1 a:hover {
+  color: #ea526f;
   cursor: pointer;
 }
-
 .left-side h2 {
-  color: #06312C;
+  color: #ea526f;
   text-transform: capitalize;
   font-size: 25px;
+}
+
+.right-side {
+  width: 40%;
+  height: 68vh;
+  background-color: rgba(250, 197, 197, 0.5);
+  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.title {
+  color: #ea526f;
+  text-transform: capitalize;
+  font-size: 35px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 i {
@@ -101,29 +109,27 @@ i {
   border-bottom: 1px solid #06312C;
   background: none;
 }
+.form label {
+  color: #253106;
+  text-transform: capitalize;
+}
+.form select {
+  color: #ea526f;
+}
 .form input[type=submit] {
   width: 90%;
-  max-width: 160px;
-  margin-top: 10px;
+  max-width: 170px;
   border-radius: 10px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ea526f), color-stop(#6bafa7), to(#a04858));
-  background-image: linear-gradient(#ea526f, #6bafa7, #a04858);
-  color: #111111;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ce7c8a), color-stop(#e26f84), to(#ea526f));
+  background-image: linear-gradient(#ce7c8a, #e26f84, #ea526f);
+  color: #ffffff;
   border: none;
   cursor: pointer;
   text-transform: capitalize;
   height: 48px;
-}
-
-.right-side__title {
-  color: #06312C;
-  text-transform: capitalize;
-  font-size: 30px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.contact-info {
-  margin-left: 60px;
-  margin-top: 20px;
+  margin-top: 30px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
