@@ -7,7 +7,7 @@ h1 {
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 38px;
     color: #06312cd8;
 }
 .main-text {
@@ -18,6 +18,7 @@ h2 {
 }
 .end-links, .nav {
     list-style-type: none;
+    
 }
 .nav-appearance, a {
     text-decoration-line:none;
@@ -27,6 +28,9 @@ h2 {
     line-height: 35px;
     font-size: 18px;
     color: #06312cd8;
+    &:hover {
+        color: #ea526f;
+    }
 }
 .label {
     font-family: 'Poppins', sans-serif;

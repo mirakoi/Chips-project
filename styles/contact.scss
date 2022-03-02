@@ -1,0 +1,121 @@
+@import 'header';
+@import 'footer';
+@import 'fonts';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+body {
+    width: 100%;
+    min-height: 900px;
+    height: 100%;
+    margin: auto;
+    background-image: linear-gradient(#03d5bd,#00867777,#00867777);
+} 
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 600px;
+        height: 300px;
+        margin-top: 160px;
+        
+        h1 {
+            text-align: center;  
+
+            a {
+                color: #06312C;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 44px;
+                text-decoration: none;
+
+                &:hover {
+                    color: #ea526f;
+                    cursor: pointer;
+                    }
+            }
+        }
+        h2 {
+            color: #ea526f;
+            text-transform: capitalize;
+            font-size: 25px;
+            }
+    }
+.right-side {
+    width:40%;
+    height:70vh;
+    background-color: #d6d2d2;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.title {
+    color: #ea526f;
+    text-transform: capitalize;
+    font-size: 35px; 
+    text-align: center;
+    margin: 5px;
+     
+}
+.contact-info {
+    margin-top: 20px; 
+    margin-left: 60px;
+}
+
+i {
+    color: #ea526f;
+}
+
+.form_contact { 
+
+    display: block;
+    padding: 30px;  
+
+        input,textarea,select {
+            width: 90%;
+            outline: none;
+            resize: none;
+            border: none;
+            border-bottom: 1px solid #06312C;
+            background: none;
+        }
+        label {
+            color:#253106;
+            text-transform: capitalize;
+        }
+        select {
+            color:#ea526f
+        }
+        input[type="submit"] {
+            width: 90%;
+            max-width: 170px;
+            border-radius: 10px;
+            background-image: linear-gradient(#ce7c8a,#e26f84,#ea526f);
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            text-transform: capitalize;
+            height: 48px;
+            margin-top:30px;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+}
