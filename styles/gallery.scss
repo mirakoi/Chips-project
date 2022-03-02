@@ -4,22 +4,22 @@
 
 body {
    font-family: 'Poppins', sans-serif;
+   background-image: linear-gradient(#03d5bd,#00867777,#00867777);
 }
+
 main {
    min-height: 90vh;
    justify-content: space-evenly;
-   background: linear-gradient(#03d5bd,#00867777,#00867777);
- }
+   justify-items: center;
+}
 
-.main__heading, .main__info, .main__tagline {
-   text-align: center;
+.main__info {
+   justify-content: center;
    padding-top: 20px;
-   color: white;
 }
 
 .main__heading {
-   color: white;
-   font-weight: bold;
+   justify-content: center;
 }
 
 .main__info, .main__tagline {
@@ -93,7 +93,7 @@ img:hover {
    width: 90%;
    height: 40px;
    border: none;
-   background-color: rgb(235, 134, 2);
+   background-color:  #ea526f;;
    font-weight: bold;
 }
 
