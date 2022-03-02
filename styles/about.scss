@@ -14,23 +14,78 @@ main {
     flex-direction: column;
 	justify-items: center;
 	align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .about-container {
-    width: 70%;
-    height: 90%;
-    background-color: #03b9a477;
+    width: 80%;
+    height: 70%;
+    background-color: #d6d2d2;
     box-shadow: 10px 10px 8px #696868;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 .text-container {
     width: 45%;
     height: 100%;
-    padding: 10px;
+    padding-left: 10px;
+
 }
-
-
+.picture-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pic-saltnpepper {
+   width: 100%;
+}
+.grid1 {
+    min-height: 40px;
+    max-width: 900px;
+    width: 100%;
+    display: grid;
+    margin: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    grid-gap: 50px;
+    padding: 30px;
+}
+.grid2 {
+    min-height: 250px;
+    max-width: 900px;
+    width: 100%;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    grid-gap: 50px;
+    padding: 20px;
+}
+.gridbox1 {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.gridbox {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.grid-pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
