@@ -8,20 +8,20 @@
     <title>About Us</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+              <img id="chips-logo" src="images/logo.svg" alt="chips-logo" />
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+    </header>
     <main>
-        <header>
-            <nav class="navbar">
-                <div class="container">
-                  <img id="chips-logo" src="images/logo.svg" alt="chips-logo" />
-                  <ul class="nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </div>
-              </nav>
-        </header>
         <div class="about-container">
             <div class="text-container">
                 <h1>Our Story</h1>
@@ -41,9 +41,31 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
                     libero aspernatur adipisci nulla error.
                 </p>
-                <div class="picture-container">
-
-                </div>
+            </div>
+            <div class="picture-container">
+                <img src="images/chips-saltnpepper.jpg" alt="Chips Salt & Pepper" class="pic-saltnpepper">
+            </div>
+        </div>
+        <div class="grid1">
+            <div class="gridbox1">
+                <a class="about-nav" href="#">Our farms</a>
+            </div>
+            <div class="gridbox1">
+                <a class="about-nav" href="#">The Selection Process</a>
+            </div>
+            <div class="gridbox1">
+                <a class="about-nav" href="#">The Production Journey</a>
+            </div>
+        </div>
+        <div class="grid2">
+            <div class="gridbox">
+                <img src="images/potatofarm.jpg" alt="landscape" class="grid-pic">
+            </div>
+            <div class="gridbox">
+                <img src="images/selection.jpg" alt="slecting" class="grid-pic">
+            </div>
+            <div class="gridbox">
+                <img src="images/chipsprocess.jpg" alt="process" class="grid-pic">
             </div>
         </div>
         <footer>
@@ -62,7 +84,7 @@
             <form class="form" action="" >
                 <label for="e-mail" class="label">Join our mailing list!</label>
                 <input class="input-area" type="e-mail" 
-                placeholder="&nbsp; Your Email" required autofocus maxlength="40" 
+                placeholder="&nbsp; Your Email" required maxlength="40" 
                 minlength="5">
                 <div class="email-block"></div>
                 <button class="signup-now-btn">Sign Up Now</button>
